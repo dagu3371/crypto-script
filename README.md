@@ -10,7 +10,7 @@ uvicorn app.main:app --host 0.0.0.0 --port 8000
 ## Fetch data for address and create a csv
 This endpoint makes a requests to blockchain api and creates a csv with the output data
 ```
-curl http://localhost:8000/fetch-address-data/1AJbsFZ64EpEfS5UAjAfcUG8pH8Jn3rn1F
+curl http://localhost:8000/fetch-address-data/{address}
 ```
 
 Blockchain api information can be found here https://www.blockchain.com/explorer/api/blockchain_api
