@@ -16,9 +16,13 @@ curl http://localhost:8000/fetch-address-data/{address}
 Blockchain api information can be found here https://www.blockchain.com/explorer/api/blockchain_api
 
 https://blockchain.info/rawaddr/$bitcoin_address
+
 Address can be base58 or hash160
+
 Optional limit parameter to show n transactions e.g. &limit=50 (Default: 50, Max: 50)
+
 Optional offset parameter to skip the first n transactions e.g. &offset=100 (Page 2 for limit 50)
+
 ```
 {
   "hash160": "660d4ef3a743e3e696ad990364e555c271ad504b",
